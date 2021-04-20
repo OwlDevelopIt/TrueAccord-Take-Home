@@ -7,7 +7,7 @@ If you would like to run the executable .jar file in the target directory
 
 `$ mvn clean install package` --builds package
 
-`$ java -jar target/true-accord-0.0.1-SNAPSHOT.jar` -- executes .jar
+`$ java -jar target/true-accord-0.0.1-SNAPSHOT.jar` --executes .jar
 
 To stop application: CTRL + C
 
