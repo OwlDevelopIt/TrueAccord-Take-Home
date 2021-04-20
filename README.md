@@ -43,7 +43,7 @@ The TrueAccordCommandLineApp runs immediately once the TrueAccordApplication Spr
 Tests can be found under /src/test/
 
 # Assumptions
-I made the assumption that all payments were sorted by date to calculate the last payment date in a certain payment plan. If this was not the case, I would loop through each payment to find the latest payment instead of taking the last payment in the list. The amount listed in the output is the total debt amount, not the settled amount for a payment plan.
+I made the assumption that all payments were sorted by date to calculate the last payment date in a certain payment plan. If this was not the case, I would loop through each payment to find the latest payment instead of taking the last payment in the list. The amount listed in the output is the total debt amount, not the settled amount on a payment plan.
 
 
 
