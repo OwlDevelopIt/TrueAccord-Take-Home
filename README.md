@@ -5,6 +5,8 @@ If you would like to run the executable .jar file in the target directory
 
 `$ cd /location/to/true-accord/` 
 
+`$ maven package`
+
 `$ java -jar target/true-accord-0.0.1-SNAPSHOT.jar`
 
 To stop application: CTRL + C
