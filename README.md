@@ -3,11 +3,11 @@ This is a SpringBoot project and the JSON Line output will be printed to the con
 ### Terminal
 If you would like to run the executable .jar file in the target directory 
 
-`$ cd /location/to/true-accord/` 
+`$ cd /location/to/true-accord/`  --cd into root directory of application
 
-`$ maven package`
+`$ mvn clean install package` --builds package
 
-`$ java -jar target/true-accord-0.0.1-SNAPSHOT.jar`
+`$ java -jar target/true-accord-0.0.1-SNAPSHOT.jar` -- executes .jar
 
 To stop application: CTRL + C
 
