@@ -1,5 +1,5 @@
 # How To Run
-This is a SpringBoot project and the JSON Line output will be printed to the console as soon as application starts.
+This is a Spring Boot project and the JSON Lines output will be printed to the console as soon as application starts.
 ### Terminal
 If you would like to run the executable .jar file in the target directory 
 
