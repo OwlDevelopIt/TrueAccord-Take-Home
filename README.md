@@ -28,6 +28,7 @@ I created the CommandLineRunner class to inject the `ProcesserService` and invok
 The test suite tests all API calls and each of the processor methods. 
 
 Given more time, I would add a controller layer to expose an API to this program (`e.g. "/getCalculatedDebts"`). I would also build a simple front end that would hit this new API and display the results instead of using the `CommandLineRunner`. 
+I would also add the settled amount if a debt was on a payment plan
 <!-- have completed a full back end for this internal web application and a simple front end to display the results instead of using the CommandLineRunner. -->
 
 # Key Notes
