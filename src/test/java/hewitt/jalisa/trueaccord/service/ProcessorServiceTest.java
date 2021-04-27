@@ -89,21 +89,21 @@ public class ProcessorServiceTest {
         PaymentPlan plan2 = new PaymentPlan();
 
         plan0.setId(0);
-        plan0.setDebtid(0);
+        plan0.setDebtId(0);
         plan0.setAmountToPay(100.50);
         plan0.setInstallmentAmount(50.25);
         plan0.setInstallmentFrequency("BI_WEEKLY");
         plan0.setStartDate("2020-03-06");
 
         plan1.setId(1);
-        plan1.setDebtid(2);
+        plan1.setDebtId(2);
         plan1.setAmountToPay(200.00);
         plan1.setInstallmentAmount(50.00);
         plan1.setInstallmentFrequency("WEEKLY");
         plan1.setStartDate("2020-01-01");
 
         plan2.setId(2);
-        plan2.setDebtid(4);
+        plan2.setDebtId(4);
         plan2.setAmountToPay(12500.00);
         plan2.setInstallmentAmount(1562.50);
         plan2.setInstallmentFrequency("WEEKLY");

@@ -6,7 +6,7 @@ public class PaymentPlan {
 
     private int id;
     @JsonProperty("debt_id")
-    private int debtid;
+    private int debtId;
     @JsonProperty("amount_to_pay")
     private double amountToPay;
     @JsonProperty("installment_frequency")
@@ -24,12 +24,12 @@ public class PaymentPlan {
         this.id = id;
     }
 
-    public int getDebtid() {
-        return debtid;
+    public int getDebtId() {
+        return debtId;
     }
 
-    public void setDebtid(int debtid) {
-        this.debtid = debtid;
+    public void setDebtId(int debtId) {
+        this.debtId = debtId;
     }
 
     public double getAmountToPay() {

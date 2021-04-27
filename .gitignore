@@ -6,6 +6,8 @@ target/
 
 mvnw
 mvn.cmd
+.mvn
+.DS_Store
 
 ### IntelliJ IDEA ###
 .idea

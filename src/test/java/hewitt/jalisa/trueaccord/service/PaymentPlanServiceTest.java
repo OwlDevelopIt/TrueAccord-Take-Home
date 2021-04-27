@@ -43,14 +43,14 @@ public class PaymentPlanServiceTest {
         PaymentPlan plan1 = new PaymentPlan();
 
         plan0.setId(0);
-        plan0.setDebtid(0);
+        plan0.setDebtId(0);
         plan0.setAmountToPay(100.50);
         plan0.setInstallmentAmount(50.25);
         plan0.setInstallmentFrequency("BI_WEEKLY");
         plan0.setStartDate("2020-03-06");
 
         plan1.setId(1);
-        plan1.setDebtid(2);
+        plan1.setDebtId(2);
         plan1.setAmountToPay(200.00);
         plan1.setInstallmentAmount(50.00);
         plan1.setInstallmentFrequency("WEEKLY");

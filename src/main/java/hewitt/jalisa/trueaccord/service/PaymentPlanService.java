@@ -25,7 +25,7 @@ public class PaymentPlanService {
     private Map<Integer, PaymentPlan> buildMap(PaymentPlan[] plans){
         Map<Integer, PaymentPlan> map = new HashMap<>();
         for(PaymentPlan plan: plans){
-            map.put(plan.getDebtid(),plan);
+            map.put(plan.getDebtId(),plan);
         }
 
         return map;
