@@ -18,12 +18,12 @@ Run the TrueAccordApplication class
 
 # Overview
 ### Time Spent
-Most of my time was spent creating the ProcessorService class (which contains the bulk of my logic) and the test classes. I first created the different models for the objects being grabbed from the API. Once I decided on the way I wanted these objects returned from the API service classes, I began writing the logic to process the debts for the outputs and then wrote the corresponding tests. Finally I focused on refactoring my code to make it readable and extendable. 
+Most of my time was spent creating the ProcessorService class (which contains the bulk of my logic) and the test classes. I first created the different models for the objects being grabbed from the API. Once I decided on the way I wanted these objects returned from the API service classes, I began writing the logic to process the debts for the outputs and then wrote the corresponding tests. Finally, I focused on refactoring my code to make it more readable and extendable. 
 
 ### Approach
 I used Spring Boot because it's great for quickly building web applications, API calls, and dependency injection. I also leveraged Gson to create each json object for the required JSON Lines format. 
 
-I created the CommandLineRunner class to inject the `ProcesserService` and invoke the `processDebts()` method once the app starts. The `Util` class to call the static `convertToJson()` and `print()` methods. I created seperate services for each API (debts,payment_plans,payments) for scalability and clear separation of concerns. Lastly, I use the `ProcessorService` class to hold the logic of processing each debt. 
+I created the CommandLineRunner class to inject the `ProcesserService` and invoke the `processDebts()` method once the app starts. The `Util` class to call the static `convertToJson()` and `print()` methods. I created seperate services for each API (debts, payment_plans, payments) for scalability and clear separation of concerns. Lastly, I use the `ProcessorService` class to hold the logic of processing each debt. 
 
 The test suite tests all API calls and each of the processor methods. 
 
